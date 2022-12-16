@@ -2,6 +2,7 @@ from DB import Database
 
 
 def add_invalid_totals():
+    """Функция добавления сплитов меньше 100 в таблицу invalid_totals"""
     db_connect = Database('well_data_db')
 
     query = '''
