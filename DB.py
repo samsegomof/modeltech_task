@@ -9,6 +9,11 @@ class Database:
 
     def get_query_result(self, query):
         """Функция, извлекающая запросы"""
+        if 'INSERT' in query:
+            # Добавление в БД
+            self.cur.execute(query)
+            self.con.commit()
+
         return self.cur.execute(query)
 
     def __enter__(self):

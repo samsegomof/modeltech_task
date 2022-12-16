@@ -81,5 +81,6 @@ def create_rate_split():
 if __name__ == '__main__':
     create_rates()
     create_splits()
+    create_invalid_splits()
     create_invalid_totals()
     create_rate_split()
