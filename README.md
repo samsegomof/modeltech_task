@@ -1,4 +1,4 @@
-# Тестовое задание в компании Центр технологий моделирования
+# Тестовое задание в компанию Центр технологий моделирования
 ## Запуск
 - склонировать репозиторий `git clone https://github.com/samsegomof/modeltech_task/`
 - установить requirements.txt `pip install -r requirements.txt`
